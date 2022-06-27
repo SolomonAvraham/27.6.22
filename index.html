@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEB API</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Welcom To WeatherApp</h1>
+    <h4>Choose City:</h4>
+    <select   id="cityInput">
+      <option value="ashdod">ashdod</option>
+      <option value="lod">lod</option>
+      <option value="haifa">haifa</option>
+      <option value="hadera">hadera</option>
+      <option value="tel-aviv">tel-aviv</option>
+    </select>
+    <br />
+    <br />
+
+    <button id="cityBtn" onclick="printWeather()">SEARCH</button>
+ <br>
+ <br>
+    <div id="screenDisplay"></div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
